@@ -1,0 +1,22 @@
+site_name: 허유영 사장님 회사
+site_url: https://example.com/
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs        # 像 Shalab 那样的顶部导航栏
+    - navigation.sections
+    - navigation.top         # 返回顶部按钮
+  palette: 
+    scheme: default          # 白色背景（专业感）
+    primary: indigo          # 主色调（你可以改成 black, blue, teal 等）
+    accent: blue
+
+# 网站结构（在此处增减页面）
+nav:
+  - Main Page: index.md
+  - About: about.md
+  - Fild: services.md
+  - Contact: contact.md
+
+copyright: Copyright &copy; 2025 My Company. All rights reserved.
